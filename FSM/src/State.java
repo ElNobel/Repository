@@ -1,6 +1,4 @@
-/**
- * Created by Numl on 04.10.2016.
- */
+
 public enum State {
     UNKNOWN, //Неопределенный статус
     INCORRECT_DATA, // Недопустимая пустая строка

@@ -1,9 +1,7 @@
 
-/**
- * Created by Numl on 04.10.2016.
- */
+
 public class FSM {
-    private State state = State.UNKNOWN;//состояние по умолчанию
+    private State state = State.UNKNOWN;//РЎРѕСЃС‚РѕСЏРЅРёРµ Р°РІС‚РѕРјР°С‚Р° РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ
 
     public State getState() {
         return state;
@@ -33,9 +31,14 @@ public class FSM {
             }
         }
 
-        state = numberOfZero % 2 == 0 && numberOfOne % 2 != 0 ?
-                State.YES :
-                State.NO;
+        if (numberOfZero % 2 == 0 && numberOfOne % 2 != 0){
+            state = State.YES;
+            return;
+        }
+        else{
+            state = State.NO;
+            return;
+        }
     }
 
     public void reset() {

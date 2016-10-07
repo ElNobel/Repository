@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
-/**
- * Created by Numl on 04.10.2016.
- */
+
 public class MainRun {
     public static void main(String[] args) {
         final FSM fsm = new FSM();
@@ -18,8 +16,6 @@ public class MainRun {
             System.out.println("State of FSM after check: " + fsm.getState());
 
             fsm.reset();
-
-
         }
     }
 }
