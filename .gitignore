@@ -16,7 +16,6 @@ MANIFEST.MF
 
 # Compiled source #
 ###################
-*.class
 *.dll
 *.exe
 *.o
@@ -30,7 +29,6 @@ MANIFEST.MF
 *.dmg
 *.gz
 *.iso
-*.jar
 *.rar
 *.tar
 *.zip
