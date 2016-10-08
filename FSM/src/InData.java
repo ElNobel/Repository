@@ -1,6 +1,6 @@
 
 
-public class InData {
+final class InData {
     private final String text;
 
 

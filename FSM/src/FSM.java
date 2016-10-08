@@ -1,6 +1,6 @@
 
 
-public class FSM {
+final class FSM {
     private State state = State.UNKNOWN;//Состояние автомата по умолчанию
 
     public State getState() {
