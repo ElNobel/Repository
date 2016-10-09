@@ -1,7 +1,7 @@
 
 
 final class FSM {
-    private State state = State.UNKNOWN;//Состояние автомата по умолчанию
+    private State state = State.UNKNOWN;
 
     public State getState() {
         return state;
